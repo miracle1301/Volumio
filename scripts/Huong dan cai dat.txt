@@ -17,5 +17,7 @@ SỬ DỤNG
 - Lần đầu chỉnh, macOS hỏi quyền "System Audio Recording" → bấm Allow.
   Nếu lỡ từ chối: System Settings → Privacy & Security → Screen & System Audio Recording → bật Volumio.
 
-TỰ KHỞI ĐỘNG CÙNG MÁY (tuỳ chọn)
-System Settings → General → Login Items → bấm "+" → chọn Volumio.
+CÀI ĐẶT KHÁC (nút bánh răng ⚙ ở cuối menu)
+- Khởi động cùng máy: bật/tắt.
+- Kiểm tra cập nhật: Volumio tự kiểm tra mỗi ngày và cài bản mới khi bạn thoát app.
+  Sau mỗi lần cập nhật, macOS có thể hỏi lại quyền "System Audio Recording" → bấm Allow.

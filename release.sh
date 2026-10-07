@@ -26,7 +26,7 @@ print -r -- "$NOTES" > "$OUT/Volumio-$VERSION.txt"
     --embed-release-notes "$OUT"
 cp "build/Volumio-$VERSION.dmg" "$OUT/"
 
-git add -A && git commit -m "Release $VERSION" || true
+git add -A && git commit -m "Release $VERSION" ${COMMIT_TRAILER:+-m "$COMMIT_TRAILER"} || true
 git tag "v$VERSION"
 git push origin HEAD --tags
 gh release create "v$VERSION" --repo "$REPO" --title "Volumio $VERSION" --notes "$NOTES" \
