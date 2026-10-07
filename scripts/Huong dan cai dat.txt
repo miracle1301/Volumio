@@ -1,0 +1,21 @@
+Volumio – Chỉnh âm lượng riêng cho từng ứng dụng
+Yêu cầu: macOS 14.4 (Sonoma) trở lên, Mac chip Apple hoặc Intel.
+
+CÀI ĐẶT
+1. Kéo Volumio vào thư mục Applications.
+2. Mở Applications, nhấp đúp Volumio.
+   Lần đầu macOS sẽ báo không xác minh được nhà phát triển (app chưa đăng ký Apple Developer):
+   → Bấm "Done"/"OK".
+   → Vào System Settings → Privacy & Security, kéo xuống, bấm "Open Anyway" cạnh dòng Volumio,
+     xác nhận bằng mật khẩu/Touch ID.
+   (Cách khác: mở Terminal và chạy:  xattr -dr com.apple.quarantine /Applications/Volumio.app )
+3. Biểu tượng Volumio xuất hiện trên thanh menu (góc trên bên phải).
+
+SỬ DỤNG
+- Bấm biểu tượng trên thanh menu → danh sách các app đang phát âm thanh.
+- Kéo thanh trượt để chỉnh âm lượng từng app (0–150%), bấm loa để tắt tiếng.
+- Lần đầu chỉnh, macOS hỏi quyền "System Audio Recording" → bấm Allow.
+  Nếu lỡ từ chối: System Settings → Privacy & Security → Screen & System Audio Recording → bật Volumio.
+
+TỰ KHỞI ĐỘNG CÙNG MÁY (tuỳ chọn)
+System Settings → General → Login Items → bấm "+" → chọn Volumio.

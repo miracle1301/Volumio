@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Volumio</string>
+	<key>CFBundleExecutable</key>
+	<string>Volumio</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.local.Volumio</string>
+	<key>CFBundleName</key>
+	<string>Volumio</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.4</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>Volumio cần quyền ghi âm thanh hệ thống để điều chỉnh âm lượng riêng cho từng ứng dụng.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Volumio</string>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUFeedURL</key>
+	<string>https://github.com/miracle1301/Volumio/releases/latest/download/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>0DgOFg6uXv+7+NxhU+ST2e/dnJ2p6O2unEsUUDXYsBU=</string>
+	<key>SUScheduledCheckInterval</key>
+	<integer>86400</integer>
+</dict>
+</plist>
